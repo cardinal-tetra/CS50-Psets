@@ -1,0 +1,19 @@
+0.  PNG, JPEG, and BMP can usually support 16 million colors; GIF can support 256 colors.
+1.  GIF supports animation.
+2.  Lossy compression is where an image loses clarity whilst undergoing a process of size reduction; with lossless compression there is no such loss of clarity.
+3.  JPEG is lossy compressed; for images with more than 256 colours, GIF is lossy compressed as well. 
+4.  First, the file name's first character in the directory entry is changed to signal that it can be recycled; second, the file's FAT clusters are moved to the hard drive's list of free clusters. 
+5.  Firstly, you could physically destroy the hard drive; second, you could override the data in the hard drive with a few random passes; third, you could degauss the drive.
+6.  It is a header file in the C standard library providing a set of typedefs that specify integer types of precise width (number of bits requried to store its value).
+7.  Because these typedefs have precise widths, the code that features them is more portable.
+8.  A BYTE is 1 byte; a DWORD is 4 bytes; a LONG is 4 bytes; a WORD is 2 bytes.
+9.  In ASCII, the first two bytes of any BMP file is BM which specifies its file type.
+10. bfSize refers to the size in bytes of the entire file, whereas biSize refers to the size in bytes of the header data structure. 
+11. If biHeight is negative then the bitmap is a top-down DIB beginning in the upper-left corner.
+12. The biBitCount specifies the numper of bits per pixel. 
+13. It could be that the name of the file you specified in argv[2] is invalid or has already been used. 
+14. It only needs to read one element of data because the BMP info header, or BMP file header is just one data structure.
+15. Padding is equal to 3. 
+16. When the for loop has iterated over the pixels in the relevant scanline, it adds the value the padding to the current position to skip over it. 
+17. SEEK_CUR is the position (current position) to which you add the offset bytes given by the value of padding. 
+18. Robert Bowden.
