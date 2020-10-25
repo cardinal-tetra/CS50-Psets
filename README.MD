@@ -6,4 +6,4 @@ CS50 is one of the most popular subjects at Harvard College and teaches the inte
 
 The subject covers a broad range of areas from programming in C, to algorithms, to web development, to security issues.
 
-Recently, additional subjects produced by CS50 staff cover areas such as web programming and artificial intelligence.
+Recently, additional subjects produced by CS50 staff cover areas such as mobile development and artificial intelligence.
